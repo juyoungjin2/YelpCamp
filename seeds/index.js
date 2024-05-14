@@ -4,8 +4,8 @@ const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
 // mongoose.connect('mongodb://localhost:27017/yelp-camp', {
-
-mongoose.connect('mongodb+srv://juyoungjin2:kdJijEoto2jv95Im@cluster-test-001.56ejucz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Test-001');
+// mongodb+srv://juyoungjin2:4Zj7AWgpgqZ0W267@yelpcamp.ytwzvea.mongodb.net/?retryWrites=true&w=majority&appName=yelpcamp
+mongoose.connect('mongodb://localhost:27017/yelp-camp');
 
 const db = mongoose.connection;
 
